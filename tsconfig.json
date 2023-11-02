@@ -9,7 +9,7 @@
       "isolatedModules": true,
       "jsx": "react-jsx",
       "noImplicitAny": false,
-      "removeComments": true,
+      "removeComments": false,
       "preserveConstEnums": true,
       "sourceMap": true,
       "forceConsistentCasingInFileNames": true,
