@@ -11,9 +11,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "access": "restricted"
-  },
   "keywords": [
     "altv",
     "react",
