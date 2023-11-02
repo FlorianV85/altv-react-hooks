@@ -4,12 +4,15 @@
   "description": "Simple hooks for working with React on alt:V Multiplayer",
   "main": "dist/index.js",
   "files": [
-    "dist" 
+    "dist"
   ],
   "types": "dist/index.d.ts",
-  "typings": "dist/index.dts",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "restricted"
   },
   "keywords": [
     "altv",
@@ -30,6 +33,7 @@
     "@altv/types-shared": "^15.0.8",
     "@altv/types-webview": "^15.0.8",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "typescript": "^5.2.2"
   }
 }
