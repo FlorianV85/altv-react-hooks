@@ -1,0 +1,35 @@
+{
+  "name": "altv-react-hooks",
+  "version": "1.0.0",
+  "description": "Simple hooks for working with React on alt:V Multiplayer",
+  "main": "dist/index.js",
+  "files": [
+    "dist" 
+  ],
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.dts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "altv",
+    "react",
+    "hooks"
+  ],
+  "author": "FlorianV85",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlorianV85/altv-react-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FlorianV85/altv-react-hooks/issues"
+  },
+  "homepage": "https://github.com/FlorianV85/altv-react-hooks#readme",
+  "devDependencies": {
+    "@altv/types-shared": "^15.0.8",
+    "@altv/types-webview": "^15.0.8",
+    "react": "^18.2.0",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,53 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+devDependencies:
+  '@altv/types-shared':
+    specifier: ^15.0.8
+    version: 15.0.8
+  '@altv/types-webview':
+    specifier: ^15.0.8
+    version: 15.0.8
+  react:
+    specifier: ^18.2.0
+    version: 18.2.0
+  typescript:
+    specifier: ^5.2.2
+    version: 5.2.2
+
+packages:
+
+  /@altv/types-shared@15.0.8:
+    resolution: {integrity: sha512-452irCrvR3QwC7WwfNOOcsDhd+PkZ5+SRmuDkBUUQQaGd/elQa/zn2quPsZbg5ooZaHfCTmND1PwLRL0L8N42Q==}
+    dev: true
+
+  /@altv/types-webview@15.0.8:
+    resolution: {integrity: sha512-doJWJNZKJZvwdte3l1KvPLcXkmL8QKixgbwjDabldEWZyhixk2rrPcfwaXvOUK3OYU2e6I831azZeGslZKoMUw==}
+    dev: true
+
+  /js-tokens@4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+    dev: true
+
+  /loose-envify@1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
+    dependencies:
+      js-tokens: 4.0.0
+    dev: true
+
+  /react@18.2.0:
+    resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: true
+
+  /typescript@5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: true

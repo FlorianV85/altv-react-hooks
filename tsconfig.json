@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",  
+      "target": "ESNext",
+      "lib": ["DOM", "DOM.Iterable", "ESNext"],
+      "module": "commonjs",
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+      "isolatedModules": true,
+      "jsx": "react-jsx",
+      "noImplicitAny": false,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+      "rootDir": "src",
+      "outDir": "dist",
+      "declaration": true,
+      "strict": true,
+      "typeRoots": [
+        "node_modules/@altv"
+      ]
+    },
+    "include": [
+      "src"
+   ],
+    "exclude": [
+      "src/**/*.spec.ts",
+      "node_modules",
+      "dist"
+    ]
+  }
