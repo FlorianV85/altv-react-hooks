@@ -8,7 +8,7 @@ Use the package manager of your choice and add ``altv-react-hooks``. Or manually
 
 ## Hooks
 
-### useEventListener
+### useAltOnEvent
 
 Listen to an alt:V client event sent to webview.
 
@@ -19,17 +19,31 @@ const myCallback = useCallback((myArg) => {
 		console.log(myArg);
 }, []);
 
-useEventListener('myEvent', myCallback);
+useAltOnEvent('myEvent', myCallback);
 ```
 
-### useEmitEvent
+### useAltOnceEvent
+
+Listen to an alt:V client event once sent to webview.
+
+The event is registered on mount, or when the callback is changed.
+
+```ts
+const myCallback = useCallback((myArg) => {
+		console.log(myArg);
+}, []);
+
+useAltOnceEvent('myEvent', myCallback);
+```
+
+### useAltEmitEvent
 
 Emits event to alt:V client.
 
 The event is emitted during mouting or when the event name changes.
 
 ```ts
-useEmitEvent('myEvent', 'my arg 1', 2, true);
+useAltEmitEvent('myEvent', 'my arg 1', 2, true);
 ```
 
 ## Licence
