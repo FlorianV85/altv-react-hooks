@@ -1,6 +1,6 @@
 {
   "name": "altv-react-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple hooks for working with React on alt:V Multiplayer",
   "main": "dist/index.js",
   "files": [
